@@ -1,0 +1,29 @@
+*{
+    background-color: #D9FFD2;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.heading{
+    text-align: center;
+font-style: normal;
+font-weight: bold;
+color: #405C50;
+font-size: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  background-color: white;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
