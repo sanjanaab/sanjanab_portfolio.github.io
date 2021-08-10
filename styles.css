@@ -130,11 +130,11 @@ left: -50px;
     position: relative ;
     left: -65px ;
 }
-#white-rectangle2 {
+/*#white-rectangle2 {
     position: relative;
     left:300px;
     overflow: hidden !important;
-}
+}*/
 .col{
     display: flex;
     flex-direction: row;
@@ -215,7 +215,7 @@ left: -50px;
         }
     .wrapper{
         
-        width: 180px;
+        width: 360px;
         margin: 0px ;
         /* display: flex;
          flex-direction: column;*/
@@ -229,11 +229,11 @@ left: -50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 20px;
-        width: 180px;
+        height: 40px;
+        width: 350px;
     }
     .wrapper1{
-        max-width: 180px;
+        max-width: 360px;
         margin: 0px auto;
         display: flex;
         flex-direction: column;
@@ -241,7 +241,7 @@ left: -50px;
     }
     .wrapper3{
         top: 10px;
-        max-width: 180px;
+        max-width: 360px;
         margin: 0px auto;
         display: flex;
         flex-direction: column;
@@ -249,49 +249,49 @@ left: -50px;
     }
     .text{
       /*  font-weight: bold;*/
-        font-size: 5px;
+        font-size: 10px;
         color: #405C50;
         position:relative;
        
-        left: 10px;
+        left: 20px;
         
         }
     .text1{
             font-weight: bold;
-            font-size: 7px;
+            font-size: 10px;
             color: #405C50;
             position: relative !important ;
-            left:10px !important; 
+            left:-50px !important; 
             top: -10px;
             }
     .text2{
             font-weight: bold;
-            font-size: 7px;
+            font-size: 10px;
             color: #405C50;
             position: relative !important;
-            left:15px !important;
+            left:-40px !important;
             top: -20px;
             }
     .text3{
             font-weight: bold;
-            font-size: 7px;
+            font-size: 10px;
             color: #405C50;
-           left:40px !important;
+           left:50px !important;
             position: relative !important;
-            top: 10px;
+            top: 20px;
                 }
     .text4{
             /*  font-weight: bold;*/
-        font-size: 7px;
+        font-size: 10px;
         color: #405C50;
         position:relative;     
-        left: 40px;
+        left: -40px;
         top: -90px;
 
         }
         .text5{
             /*  font-weight: bold;*/
-              font-size: 5px;
+              font-size: 10px;
               color: #405C50;
               position:relative;
              left: 10px;
@@ -300,16 +300,16 @@ left: -50px;
               }
     .smalltext{
         color: #405C50;
-        font-size: 1px;
+        font-size: 7px;
         position: absolute;
         left: 10px;
         }
         .smalltext2{
             color: #405C50;
-            font-size: 5px;
+            font-size: 7px;
             position: relative ;
             top: -10px;
-            left: -80px ;
+            left: -130px ;
         }
     .header-container{
         background: #D9FFD2 url("images/side-design1-phone.svg");
@@ -318,8 +318,8 @@ left: -50px;
        /* background-size: 378px 1050px;*/
         display: flex;
         flex-direction: column;
-         height: 160px; 
-         width: 180px ;
+         height: 250px; 
+         width: 360px ;
         /*  align-items: center;*/
         /* height: calc(200vh - 92px); */
      }
@@ -330,8 +330,8 @@ left: -50px;
       /*  background-size: 250px 3050px;*/
         display: flex;
         flex-direction: column;
-        height: 250px; 
-        width: 180px;
+        height: 350px; 
+        width: 360px;
       /*  align-items: center;*/
        /* height: calc(200vh - 92px); */
     }
@@ -339,7 +339,7 @@ left: -50px;
      {
        /* background:  url("images/profile.png");*/
        position: relative;
-       left: -10px;
+       left: -25px;
          height: 15px;
          width: auto;
      }
@@ -349,6 +349,7 @@ left: -50px;
         flex-direction: column;
         position: relative;
         top: -60px;
+        left: 70px;
     }
     .desc{
         display: flex;
@@ -363,10 +364,10 @@ left: -50px;
     }
     .pix
     {
-        height: 5px;
+        height: 10px;
         width: 10px; 
         position: relative;
-        left: -10px; 
+        left: -100px; 
         top: -75px; 
     }
     .bottom{
@@ -377,17 +378,22 @@ left: -50px;
     }
     .exskills{
     
-        left:10px;
+        left:-50px;
+        top: 15px;
         position: relative;
     }
     .exskills2{
         position: relative;
-       left:35px;
-       top: 10px;
+       left:40px;
+       top: 20px;
     }
     .projects{
         position: relative;
-        left: 10px;
+        left: -70px;
         top: -80px;
     }
+    #white-rectangle {
+        position: relative;
+        left:-103px;
+   }
 }
