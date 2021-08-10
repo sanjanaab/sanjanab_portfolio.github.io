@@ -249,7 +249,7 @@ left: -50px;
     }
     .text{
       /*  font-weight: bold;*/
-        font-size: 10px;
+        font-size: 17px;
         color: #405C50;
         position:relative;
        
@@ -300,7 +300,7 @@ left: -50px;
               }
     .smalltext{
         color: #405C50;
-        font-size: 7px;
+        font-size: 10px;
         position: absolute;
         left: 10px;
         }
@@ -318,7 +318,7 @@ left: -50px;
        /* background-size: 378px 1050px;*/
         display: flex;
         flex-direction: column;
-         height: 250px; 
+         height: 470px; 
          width: 400px ;
         /*  align-items: center;*/
         /* height: calc(200vh - 92px); */
@@ -339,7 +339,7 @@ left: -50px;
      {
        /* background:  url("images/profile.png");*/
        position: relative;
-       left: 70px;
+       left: 25px;
          height: 15px;
          width: auto;
      }
@@ -394,6 +394,6 @@ left: -50px;
     }
     #white-rectangle {
         position: relative;
-        left:-103px;
+        left:-120px;
    }
 }
