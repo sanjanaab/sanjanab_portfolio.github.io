@@ -209,20 +209,20 @@ left: -50px;
     nav .logo{
         font-style: normal;
         font-weight: bold;
-        font-size: 7px;
+        font-size: 20px;
         line-height: 42px;
         color: #000000;
         }
     .wrapper{
         
-        width: 360px;
+        width: 300px;
         margin: 0px ;
         /* display: flex;
          flex-direction: column;*/
     }
     .contact{
         position: relative;
-        top: -7px;
+        top: 2px;
     }
     nav{
         position: relative;
@@ -230,7 +230,7 @@ left: -50px;
         align-items: center;
         justify-content: space-between;
         height: 40px;
-        width: 350px;
+        width: 400px;
     }
     .wrapper1{
         max-width: 360px;
@@ -319,7 +319,7 @@ left: -50px;
         display: flex;
         flex-direction: column;
          height: 250px; 
-         width: 360px ;
+         width: 400px ;
         /*  align-items: center;*/
         /* height: calc(200vh - 92px); */
      }
@@ -339,7 +339,7 @@ left: -50px;
      {
        /* background:  url("images/profile.png");*/
        position: relative;
-       left: -25px;
+       left: 70px;
          height: 15px;
          width: auto;
      }
