@@ -319,7 +319,7 @@ left: -50px;
         }
         .smalltext3{
             color: #405C50;
-            font-size: 15px;
+            font-size: 12px;
             position: absolute;
             left: 10px;
             }
@@ -387,7 +387,7 @@ left: -50px;
         height: 30px;
         width: 30px; 
         position: relative;
-        left: -15px; 
+        left: -35px; 
         top: -75px; 
     }
     .bottom{
