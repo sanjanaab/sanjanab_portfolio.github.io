@@ -52,3 +52,60 @@ nav .logo{
     line-height: 42px;
     color: #000000;
     }
+
+    @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1)
+    {
+        .wrapper{
+            max-width: 400px;
+            
+            margin: 0px auto;
+           /* display: flex;
+            flex-direction: column;*/
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 40px;
+        }
+        .header-container{
+            background: url("images2/background-phone.svg");
+            background-repeat: no-repeat;
+         /*   background-position: right;*/
+         /*   background-size: 1000px 750px;
+         /*   display: flex;
+            flex-direction: column;*/
+            height: 700px;
+            width: auto; 
+          /*  align-items: center;*/
+           /* height: calc(200vh - 92px); */
+           
+        }
+        nav .logo{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 42px;
+            color: #000000;
+            }
+        .email{
+            top: 10px;
+            position: relative;
+
+        }
+        .linkedin{
+            top: 20px;
+            position: relative;
+
+        }
+        .bottom{
+            top: 300px;
+            position: relative;
+
+        }
+        .home{
+            position: relative;
+            left: -5px;
+        }
+
+    }
