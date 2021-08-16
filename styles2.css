@@ -20,7 +20,7 @@ nav{
     height: 100px;
 }
 .header-container{
-    background: url("images2/background5.svg");
+    background: url("images2/background.svg");
     background-repeat: no-repeat;
  /*   background-position: right;*/
  /*   background-size: 1000px 750px;
@@ -105,6 +105,7 @@ nav .logo{
         }
         .home{
             position: relative;
+
             left: -5px;
         }
 
