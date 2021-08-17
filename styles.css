@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0%;
 
 }
 
@@ -16,8 +16,6 @@ body{
 .wrapper{
     max-width: 1100px;
     margin: 0px auto;
-   /* display: flex;
-    flex-direction: column;*/
 }
 nav{
     display: flex;
@@ -64,7 +62,6 @@ color: #000000;
 
 header{
     display: flex;
-    /*align-items: center;*/
     justify-content: space-between;
 }
 .header-container{
@@ -74,14 +71,8 @@ header{
     background-size: 378px 1050px;
     display: flex;
     flex-direction: column;
-  /*  height: 1500px; */
-  /*  align-items: center;*/
-   /* height: calc(200vh - 92px); */
 }
-/*.bg{
-    background: url("images/profile.png");
-    
-}*/
+
 .text{
 font-weight: bold;
 font-size: 30px;
@@ -113,8 +104,6 @@ left: -50px;
     flex-direction: column;
     height: 1070px; 
     width: 550;
-  /*  align-items: center;*/
-   /* height: calc(200vh - 92px); */
 }
 .desc{
     display: flex;
@@ -136,11 +125,6 @@ left: -50px;
     position: relative ;
     left: -65px ;
 }
-/*#white-rectangle2 {
-    position: relative;
-    left:300px;
-    overflow: hidden !important;
-}*/
 .col{
     display: flex;
     flex-direction: row;
@@ -210,7 +194,6 @@ left: -50px;
 {
     body{
         overflow-x: hidden !important;
-      /* overflow-y: hidden;*/
     }
     nav .logo{
         font-style: normal;
@@ -223,8 +206,6 @@ left: -50px;
         
         width: 350px;
         margin: 0px ;
-        /* display: flex;
-         flex-direction: column;*/
     }
     .contact{
         position: relative;
@@ -254,7 +235,6 @@ left: -50px;
         position: relative;
     }
     .text{
-      /*  font-weight: bold;*/
         font-size: 17px;
         color: #405C50;
         position:relative;
@@ -287,7 +267,6 @@ left: -50px;
             top: 70px;
                 }
     .text4{
-            /*  font-weight: bold;*/
         font-size: 17px;
         color: #405C50;
         position:relative;     
@@ -328,25 +307,19 @@ left: -50px;
         background: #D9FFD2 url("images/side-design1-phone.svg");
         background-repeat: no-repeat;
         background-position: right;
-       /* background-size: 378px 1050px;*/
         display: flex;
         flex-direction: column;
          height: 470px; 
          width: 400px ;
-        /*  align-items: center;*/
-        /* height: calc(200vh - 92px); */
      }
      .header-container2{
         background: #D9FFD2 url("images/side-design2-phone.svg");
         background-repeat: no-repeat;
         background-position: left;
-      /*  background-size: 250px 3050px;*/
         display: flex;
         flex-direction: column;
         height: 850px; 
         width: 400px;
-      /*  align-items: center;*/
-       /* height: calc(200vh - 92px); */
     }
     .col{
         display: flex;
@@ -357,25 +330,30 @@ left: -50px;
     }
      .bg
      {
-       /* background:  url("images/profile.png");*/
        position: relative;
        left: 25px;
          height: 15px;
          width: auto;
      }
      .cards{
+         overflow-x: hidden;
         display: flex;
         justify-content: center;
         flex-direction: column;
         position: relative;
         top: -60px;
         left: 120px;
+        width: 100%;
+        max-width: 200px;
+        margin-right: -50% !important; 
+        
+        padding: 0%;
+        padding-right: -30%;
+        min-width: 0%;
     }
     .desc{
         display: flex;
         flex-direction: row;
-      /*  height: 15px;
-        width: 15px;*/
     }
     .img
     {
@@ -391,7 +369,7 @@ left: -50px;
         top: -75px; 
     }
     .bottom{
-        background: url(images/bottom-pg-phone1.svg);
+        background: url(images/bottom-pg-phone.svg);
         /*height: 200px;*/
         background-repeat: no-repeat;
         
@@ -416,4 +394,135 @@ left: -50px;
         position: relative;
         left:-115px;
    }
+}
+@media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1)
+{
+    nav .logo{
+        font-size: 20px;
+        line-height: 22px;
+        color: #000000;
+        }
+    .text{
+        font-size: 15px;              
+        }   
+     .header-container{
+        background: #D9FFD2 url("images/side-design1-phone-l.svg"); 
+        background-repeat: no-repeat;    
+        background-position: right;
+        height: 470px; 
+        }
+        .header-container2{
+            height: 1000px; 
+           
+        }
+     #white-rectangle {
+        position: relative;
+        left: 10px;
+       }
+    .smalltext{
+       color: #405C50;
+       font-size: 15px;
+       position: absolute;
+        left: 10px;
+        }
+    .text4{
+        font-size: 20px;
+        color: #405C50;
+        position:relative;     
+        left: 200px;
+        top: -90px;
+    }
+    .projects{
+        position: relative;
+        left: 100px;
+        top: -80px;
+        }
+    .pix
+        { 
+        position: relative;
+        left: 10px; 
+            top: -90px; 
+        }
+        .text1{
+            font-weight: bold;
+            font-size: 20px;
+            color: #405C50;
+            position: relative !important ;
+            left:130px !important; 
+            top: -80px;
+            }
+            .text2{
+                font-weight: bold;
+                font-size: 20px;
+                color: #405C50;
+                position: relative !important;
+                left:120px !important;
+                top: -70px;
+                }
+                .text3{
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: #405C50;
+                   left:150px !important ;
+                    position: relative !important;
+                    top: -50px;
+                        }
+            .smalltext2{
+                color: #405C50;
+                font-size: 17px;
+                position: relative ;
+                top: -70px;
+                left: 100px ;
+            }
+            .smalltext3{
+                color: #405C50;
+                font-size: 17px;
+                position: relative;
+                left: 150px;
+                }
+            .col{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                position: relative !important;
+                left: 100px !important;
+            }
+            .wrapper3{
+                top: 20px;
+                max-width: 300px;
+                margin: 0px auto;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+            }
+            .exskills{
+    
+                left:-40px;
+                top: -70px;
+                position: relative;
+            }
+            .exskills2{
+                position: relative;
+               left:-30px;
+               top: -60px;
+            }
+            .cards{
+                
+               display: flex;
+               justify-content: center;
+               flex-direction: row;
+               position: relative;
+               flex-flow: row wrap;
+              
+           }
+           .text5{
+            /*  font-weight: bold;*/
+              font-size: 20px;
+              color: #405C50;
+           /*   position:relative;
+             left: 80px;
+             top: -80px;
+             */
+              
+              }
 }
