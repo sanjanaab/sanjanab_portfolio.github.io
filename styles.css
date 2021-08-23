@@ -526,3 +526,22 @@ left: -50px;
               
               }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1)
+{
+    nav{
+        width: 670px;
+    }
+    .wrapper{
+        
+        width: 700px;
+        margin: 0px ;
+    }
+    .header-container{
+        background: #D9FFD2 url("images/side-design1.svg"); 
+        background-repeat: no-repeat;    
+        background-position: right;
+        height: 470px;
+        width: 700px; 
+        }
+
+}
